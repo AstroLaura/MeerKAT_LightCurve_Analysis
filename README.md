@@ -12,7 +12,8 @@ The Python (.py) and Jupyter Notebook (.ipynb) files with the same name contain 
   <li><em>CorrelationInvestigation_Plots.ipynb</em> (or <em>CorrelationInvestigation_Plots.py</em>) uses the outputs of <em>CorrelationInvestigation.ipynb</em>, <em>TraP_SourceProcessing.ipynb</em> and <em>EpochScaling.ipynb</em> to plot a variety of plots to investigate the light curves and properties of the field</li>  
 </ul>
 
+This code has a DOI to help you reference it quickly and easily. If you use the code in this repo, please make sure you cite it correctly!
 
-If you use the data or code in this repo, please make sure you cite it correctly!
+<a href="https://zenodo.org/badge/latestdoi/331851041"><img src="https://zenodo.org/badge/331851041.svg" alt="DOI"></a>
 
 I am part of the MeerTRAP team, based at the University of Manchester and funded by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 694745).
