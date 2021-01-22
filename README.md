@@ -1,2 +1,13 @@
 # MeerKAT_LightCurve_Analysis
-Code for the investigation and analysis of light curves in MeerKAT observations of GX 339-4.
+Code for the investigation and analysis of light curves in MeerKAT observations of GX 339-4. This work is part of my PhD thesis at the University of Manchester.
+
+The Python (.py) and Jupyter Notebook (.ipynb) files with the same name contain the same code. The Jupyter Notebooks have additional notes and descriptions.
+
+### The notebook and scripts
+
+<ul>
+  <li><em>TraP_SourceProcessing.ipynb</em> (or <em>TraP_SourceProcessing.py</em>) contains the code for processing information from LOFAR TraP databases. It makes an individual CSV file (in a nice Pandas format) for each source that TraP detected</li>
+  <li><em>CorrelationInvestigation.ipynb</em> (or <em>CorrelationInvestigation.py</em>) uses the outputs of <em>TraP_SourceProcessing.ipynb</em> and uses the Pearson's r correlation coefficient to produce files with the correlations of all sources in the light curve files</li>  
+  <li><em>EpochScaling.ipynb</em> uses outputs from <em>TraP_SourceProcessing.ipynb</em> to model systematics in the light curves of sources detected and tracked by TraP</li>
+  <li><em>CorrelationInvestigation_Plots.ipynb</em> (or <em>CorrelationInvestigation_Plots.py</em>) uses the outputs of <em>CorrelationInvestigation.ipynb</em>, <em>TraP_SourceProcessing.ipynb</em> and <em>EpochScaling.ipynb</em> to plot a variety of plots to investigate the light curves and properties of the field</li>  
+</ul>
