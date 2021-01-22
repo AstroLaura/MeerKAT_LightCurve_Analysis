@@ -11,3 +11,8 @@ The Python (.py) and Jupyter Notebook (.ipynb) files with the same name contain 
   <li><em>EpochScaling.ipynb</em> uses outputs from <em>TraP_SourceProcessing.ipynb</em> to model systematics in the light curves of sources detected and tracked by TraP</li>
   <li><em>CorrelationInvestigation_Plots.ipynb</em> (or <em>CorrelationInvestigation_Plots.py</em>) uses the outputs of <em>CorrelationInvestigation.ipynb</em>, <em>TraP_SourceProcessing.ipynb</em> and <em>EpochScaling.ipynb</em> to plot a variety of plots to investigate the light curves and properties of the field</li>  
 </ul>
+
+
+If you use the data or code in this repo, please make sure you cite it correctly!
+
+I am part of the MeerTRAP team, based at the University of Manchester and funded by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 694745).
